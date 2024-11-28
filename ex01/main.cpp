@@ -6,7 +6,7 @@
 /*   By: kammi <kammi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/25 14:01:59 by kammi             #+#    #+#             */
-/*   Updated: 2024/11/26 12:25:30 by kammi            ###   ########.fr       */
+/*   Updated: 2024/11/28 15:58:58 by kammi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,16 @@
 
 #define NUM_ANIMALS 6
 
-int main(void) {
+// int	main()
+// {
+// 		const Animal* j = new Dog();
+// 		const Animal* i = new Cat();
+// 		delete j;
+// 		delete i;
+// }
+int	main(void)
+
+{
 	Animal *animals[NUM_ANIMALS];
 
 	// std::string ideas[6] = {
@@ -73,6 +82,7 @@ int main(void) {
 	assignedCat = originalCat;
 	std::cout << "Assigned Cat idea: " << assignedCat.getBrain()->getIdea(0) << std::endl;
 	std::cout << std::endl;
+	
 
 	// Suppression des animaux
 	std::cout << "=== Suppression des animaux ===" << std::endl;

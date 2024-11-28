@@ -6,7 +6,7 @@
 /*   By: kammi <kammi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 12:46:38 by kammi             #+#    #+#             */
-/*   Updated: 2024/11/26 14:14:28 by kammi            ###   ########.fr       */
+/*   Updated: 2024/11/28 15:59:16 by kammi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,7 +79,6 @@ int main(void) {
 		delete animals[i];
 
 	// Tests de compilation pour les classes abstraites
-	// Décommenter les lignes suivantes provoquera des erreurs de compilation
 	// car AAnimal est une classe abstraite et ne peut pas être instanciée.
 
 	// AAnimal abstractAnimal;

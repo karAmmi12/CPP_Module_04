@@ -6,7 +6,7 @@
 /*   By: kammi <kammi@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 14:33:05 by kammi             #+#    #+#             */
-/*   Updated: 2024/11/26 18:57:55 by kammi            ###   ########.fr       */
+/*   Updated: 2024/11/28 15:16:26 by kammi            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,7 +72,7 @@ AMateria* MateriaSource::createMateria(std::string const & type)
 	for (int i = 0; i < 4; i++)
 	{
 		if (_inventory[i] && _inventory[i]->getType() == type)
-			return _inventory[i]->clone();
+			return _inventory[i]->clone(); 
 	}
 	return NULL;
 }
